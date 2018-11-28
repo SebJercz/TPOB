@@ -44,3 +44,16 @@ si on estime une puissance de 1mW de la Del, et photodiode génère environ 0.5A
 Le signal sans ampli-op semble suffisant? 
 
 Si on met nottre doigt entre le load de 1kohm ajouté avant l'oscillscope et le résistance du trans impédance avec une certaine force, le signal devient carré et très stable. Si on pese plus fort le signal sature, si on pese moins fort le signal devient nul. Il faudrait donc augmenter la résistance?
+
+### Deuxième période
+
+On essaye une variation du circuit ou on remplace le transimpedance est enlevé et on utilise simplement une résistance.   Photo du circuit :
+
+
+
+**Explication :** 
+Reverse bias : 
+Résistance choisie : 
+Pas de condensateur : 
+
+On est capable de voir des fonctions step a l'oscilloscope. Elles atteignent environ 500mV, on voit la variation du poul de quelques dizaines de mV et la différence entre le signal de rouge et ir capté de quelques dizaines de mV également. 
