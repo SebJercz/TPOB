@@ -748,13 +748,15 @@ outpout power : 4.25
 
 Maintenant, afin de s'assurer que cette constante de rapelle est connue, nous pourrions observer sa variation selon la puissance du laser infrarouge. De cette manière, pour de futures expériences, si la trappe optique est trop forte et que les déplacements ne peuvent être mesurés, la puissance du laser pourra être ajusté.
 
-| **Puissance laser** [W] | fichier données | déplacement [m] | Constante k |
-| ----------------------- | --------------- | --------------- | ----------- |
-| 2.02W $\pm$             | bille08 ou 09   | $\pm$           | $\pm$       |
-| 1.52W $\pm$             | bille11         | $\pm$           | $\pm$       |
-| 3.58W $\pm$             | bill07 sebmarc  | $\pm$           | $\pm$       |
-| 4.08W $\pm$             | billes12        | $\pm$           | $\pm$       |
-| 4.0W$\pm$               |                 | $\pm$           | $\pm$       |
+Afin de bien voir un décalage entre la bille et la trappe, la vitesse de déplacement a été augmentée a 0.16mm/s. cela créé un décalage très visible lorsque la pince se déplace.
+
+| **Puissance laser** [W] | fichier données | déplacement [V]   | Constante k [*10**-6] |
+| ----------------------- | --------------- | ----------------- | --------------------- |
+| 2.0 $\pm$ 0.1           | bille08 ou 09   | 0.016 $\pm$ 0.002 | 8$\pm$1               |
+| 1.5 $\pm$ 0.1           | bille11         | 0.036 $\pm$ 0.002 | 3.4$\pm$0.2           |
+| 3.6 $\pm$ 0.2           | bill07 sebmarc  | $0.005 \pm 0.001$ | 25$\pm$4              |
+| 4.1W $\pm$ 0.3          | billes12        | 0.003 $\pm$ 0.001 | 40$\pm$8              |
+| 4.0W$\pm$               |                 | $\pm$             | $\pm$                 |
 
 *S'assurer d'écrire les incertitudes sur la puissance du laser et sur les déplacements en X pour pouvoir mettre une incertitude sur la force du moteur bactériel à la fin! Les incertitudes des éléments mesureés pourront être calculés par la suite, mais les incertitudes qu'on ne peut pas mesurer en dehors du lab doivent être prises en compte*
 
@@ -762,6 +764,17 @@ Puissance mesuré avec puissancemetre thorlabs
 viscosité (cSt) : 1250 ± 10% : nvm cest l'eau
 r sphere : 5.9 um ± 5%
 vitesse : 0.16 mm/s
+
+
+
+L'étalonnage a été réeffectué avec de nouvelles données pour obtenir une nouvelle pente, avec vitesse moteur pour les deux de 0.006, mêmes calculs que plus haut 
+
+| Fichier  | Sens | Pente mesuré excel [V/pts]        | Pente [V/m] |
+| -------- | ---- | --------------------------------- | ----------- |
+| Bille003 | y    | $$(4.17 \pm 0.03) \times10^{-5}$$ | 6950 ± 50   |
+| Bille009 | x    | $$(3.28 \pm 0.02) \times10^{-5}$$ | 5470 ± 30   |
+
+
 
 ##### Mesures Sur la bactéries E.coli:
 
