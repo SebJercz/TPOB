@@ -795,3 +795,9 @@ elles-même étant accrochées à la lamelle par leur filament (elles sont dites
 
 
 ##### Mesure du Couple du moteur flagellaire
+
+longueur en pixel de la bactérie : 47
+
+distance perpediculaire entre croix et bout bactérie : 17
+diamètre d'une bille : 118 pixels
+
